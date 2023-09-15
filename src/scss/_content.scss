@@ -37,6 +37,71 @@ main {
     margin-top: 0;
   }
   img.mobile-map {
-    border: 10px solid black;
+    margin-bottom: -4rem;
+  }
+}
+
+.small-text {
+  font-size: 0.6rem;
+}
+
+.header2-gray {
+  background-color: $lightgray;
+  padding: 0.5rem;
+  margin: 0;
+  width: 192px;
+}
+
+.small-text.italic,
+.coffee-description {
+  background: rgba(226, 226, 226, 0.5);
+  padding: 0.5rem;
+  margin: 0;
+  width: 192px;
+}
+
+.coffee-img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.coffee-content {
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 550px) {
+  main {
+    max-width: 80vw;
+
+    .coffee-description {
+      height: 35%;
+    }
+
+    .coffee-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80vw;
+
+      .coffee-content {
+        width: 40%;
+        margin-bottom: 1rem;
+        .header2-gray {
+          width: 100%;
+        }
+        .coffee-img {
+          width: 100%;
+        }
+        .small-text.italic {
+          width: 100%;
+        }
+        .coffee-description {
+          width: 100%;
+        }
+      }
+    }
   }
 }
