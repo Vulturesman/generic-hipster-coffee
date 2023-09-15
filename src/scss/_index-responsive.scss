@@ -1,0 +1,23 @@
+@media (min-width: 550px) {
+  .main-index {
+    width: 90vw;
+  }
+  .counter {
+    width: 80vw;
+  }
+  .container-basic {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-map {
+    display: none;
+  }
+
+  main .desktop-map {
+    display: block;
+    width: 80vw;
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+  }
+}
