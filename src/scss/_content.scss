@@ -1,0 +1,37 @@
+$mwidth: 13rem;
+
+main {
+  padding: 2rem 1rem 3rem 1rem;
+  max-width: $mwidth;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h1 {
+    font-weight: 300;
+    opacity: 0.7;
+    line-height: 3.2rem;
+  }
+  h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    opacity: 0.7;
+  }
+  img {
+    width: $mwidth - 1rem;
+  }
+  h3 {
+    font-weight: 300;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+    padding: ů0;
+  }
+  p {
+    font-weight: 300;
+    opacity: 0.8;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+  }
+}

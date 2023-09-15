@@ -9,7 +9,11 @@ html {
 
 @import "variables.scss";
 @import "footer.scss";
+@import "content.scss";
+@import "header.scss";
 
 body {
   font-family: $font;
+  width: 100%;
+  margin: 0 auto;
 }
