@@ -42,11 +42,49 @@ section {
 }
 
 .Our-story {
-    background-color: $gray;
-    color: $white;
+  background-color: $gray;
+  color: $white;
+  text-align: center;
+  height: 23em;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+&__heading {
+  align-self: center;
+}
+&__member2 {
+  align-self: flex-end;
+}
+
+.team {
+  background-image: url();
+  color: $black;
+  width: 100vw;
+  text-align: center;
+  margin-top: -2em;
+  &__member {
+    margin-bottom: 4em;
     text-align: center;
-    height: 23em;
-    width: 100vw;
+    h3:nth-child(2) {
+      margin-top: -3em;
+    }
+    &-title {
+      color: $gray;
+    }
+    &-img {
+      width: 20em;
+      height: 18em;
+      border-radius: 50%;
+    }
+  }
+}
+
+.team {
+  &__container {
+    width: 20em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -58,70 +96,31 @@ section {
   &__member2 {
     align-self: flex-end;
   }
-
- 
-.team {
-    background-image: url();
-    color: $black;
-    width: 100vw;
-    text-align: center;
-    margin-top: -2em;
-    &__member {
-        margin-bottom: 4em;
-        text-align: center;
-         h3:nth-child(2) {
-            margin-top: -3em;
-                 } &-title {
-                    color:$gray ;
-                } &-img {
-                width: 20em;
-                height: 18em;
-                 border-radius: 50%;
-        } 
-    }
 }
-
-
-.team {
-        &__container {
-            width: 20em;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-        } &__heading {
-            align-self: center;
-        } &__member2 {
-            align-self: flex-end;
-        }
-}
-
 
 .Address {
-    background-color: $black;
-    color: $white;
-            &__container {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: center;
-                width: 100vw;
-                height: 10em;
-                        
-                } 
-        }
+  background-color: $black;
+  color: $white;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10em;
+  }
+}
 
-        @media (min-width: 800px) { 
-            .Our-story {
-                height: 30em;
-            }
-           }
-    
-           @media (min-width: 550px) { 
-            .Address {
-                        &__container {
-                            height: 15em;
-                                    
-                            } 
-                    }
-           }
+@media (min-width: 800px) {
+  .Our-story {
+    height: 30em;
+  }
+}
+
+@media (min-width: 550px) {
+  .Address {
+    &__container {
+      height: 15em;
+    }
+  }
+}
