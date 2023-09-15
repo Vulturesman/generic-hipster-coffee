@@ -44,9 +44,10 @@ section {
 }
  
 .Our-story {
-    background-color: $black;
+    background-color: $gray;
     color: $white;
     text-align: center;
+    height: 23em;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -65,6 +66,7 @@ section {
     color: $black;
     width: 100vw;
     text-align: center;
+    margin-top: -2em;
     &__member {
         margin-bottom: 4em;
         text-align: center;
@@ -74,7 +76,7 @@ section {
                     color:$gray ;
                 } &-img {
                 width: 20em;
-                height: 20em;
+                height: 18em;
                  border-radius: 50%;
         } 
     }
@@ -105,12 +107,22 @@ section {
                 justify-content: space-around;
                 align-items: center;
                 width: 100vw;
-                height: 20em;
-                        // .Book-a-table{
-                        //     align-items: flex-start;
-                        // }
+                height: 10em;
+                        
                 } 
         }
 
-
- 
+        @media (min-width: 800px) { 
+            .Our-story {
+                height: 30em;
+            }
+           }
+    
+           @media (min-width: 550px) { 
+            .Address {
+                        &__container {
+                            height: 15em;
+                                    
+                            } 
+                    }
+           }
