@@ -50,14 +50,14 @@ section {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-}
+
 &__heading {
   align-self: center;
 }
 &__member2 {
   align-self: flex-end;
 }
-
+}
 .team {
   background-image: url();
   color: $black;
