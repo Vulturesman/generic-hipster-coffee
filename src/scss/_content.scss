@@ -6,6 +6,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
 
   h1 {
     font-weight: 300;
@@ -25,7 +27,7 @@ main {
     font-weight: 300;
     opacity: 0.7;
     margin-bottom: 1rem;
-    padding: ů0;
+    padding: 0;
   }
   p {
     font-weight: 300;
@@ -33,5 +35,8 @@ main {
     font-size: 0.8rem;
     line-height: 1.5rem;
     margin-top: 0;
+  }
+  img.mobile-map {
+    border: 10px solid black;
   }
 }
