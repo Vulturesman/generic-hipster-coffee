@@ -8,8 +8,14 @@ html {
 }
 
 @import "variables.scss";
+<<<<<<< HEAD
 @import "content.scss";
+=======
+@import "header.scss";
+>>>>>>> main
 
 body {
   font-family: $font;
+  width: 100%;
+  margin: 0 auto;
 }
